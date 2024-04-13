@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
+	<string>zh</string>
 	<key>CFBundleDisplayName</key>
-	<string>rn_shudu</string>
+	<string>数独</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -34,6 +34,26 @@
 				<true/>
 			</dict>
 		</dict>
+	</dict>
+	<key>CFBundleIcons</key>
+	<dict>
+			<key>CFBundlePrimaryIcon</key>
+			<dict>
+					<key>CFBundleIconFiles</key>
+					<array>
+							<string>icon-40@3x.png</string>
+					</array>
+			</dict>
+			<key>CFBundleAlternateIcons</key>
+			<dict>
+					<key>new-icon-id</key>
+					<dict>
+							<key>CFBundleIconFiles</key>
+							<array>
+									<string>icon-40@3x.png</string>
+							</array>
+					</dict>
+			</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>

@@ -152,9 +152,7 @@ class Main extends Component {
               {!showRecord && (
                 <Text style={styles.title}>{I18n.t('name')}</Text>
               )}
-              {!showRecord && (
-                <Text style={styles.about}>by Neo(nihgwu@live.com)</Text>
-              )}
+              {!showRecord && <Text style={styles.about}>by keep</Text>}
               <Touchable
                 disabled={disabled}
                 style={styles.button}
@@ -568,7 +566,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'cadetblue',
+    backgroundColor: 'rgb(72, 207, 156)',
     paddingBottom: CellSize,
   },
   header: {
@@ -590,7 +588,7 @@ const styles = StyleSheet.create({
   },
   modal: {
     flex: 1,
-    backgroundColor: 'teal',
+    backgroundColor: 'rgb(72, 207, 156)',
   },
   modalContainer: {
     flex: 1,

@@ -1,6 +1,6 @@
 'use strict';
 
-import { AsyncStorage } from 'react-native';
+import {AsyncStorage} from 'react-native';
 
 function clear() {
   return AsyncStorage.clear();
@@ -19,7 +19,7 @@ function remove(key) {
 }
 
 function multiGet(...keys) {
-  return AsyncStorage.multiGet([...keys]).then((stores) => {
+  return AsyncStorage.multiGet([...keys]).then(stores => {
     let data = {};
     stores.map((result, i, store) => {
       data[store[i][0]] = JSON.parse(store[i][1]);
